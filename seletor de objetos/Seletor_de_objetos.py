@@ -30,6 +30,9 @@ class_labels = {
     0: ("Zigoto", "Zigoto", (255, 0, 0)),  # Vermelho para marcações de zigoto
 }
 
+#Altura e largura padrão da marcação
+WD = 0.2 
+HD = 0.2
 
 #Caminho onde salvar os novos labels
 output_folder = labels_folder
@@ -256,7 +259,7 @@ def on_mouse_press(event):
         if markings:
             _, _, _, width, height = markings[-1]
         else:
-            width, height = 0.20, 0.20  # Tamanho padrão
+            width, height = WD, HD  # Tamanho padrão
 
         x_center = x / w
         y_center = y / h
