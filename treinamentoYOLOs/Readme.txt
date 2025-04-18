@@ -1,1 +1,1 @@
-
+Nesta pasta constam os notebooks python que podem ser utilizados para realizar novos treinamentos. Aqui também constam os resultados dos classificador e seletor com o melhor modelo para cada estratégia de pré-processamento.
